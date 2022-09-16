@@ -14,7 +14,6 @@ export default function Main() {
   const [catchphraseArr, setCatchphraseArr] = useState([]);
   const handleArrChange = () => {
     setCatchphraseArr((oldArray) => [catchphrase, ...oldArray]);
-
   };
   return (
     <div className='main'>

@@ -1,5 +1,6 @@
 import React from 'react';
 import RenderCatchphrase from './RenderCatchphrase.js/RenderCatchphrase';
+import './Catchphrases.css';
 
 export default function Catchphrases({ handleArrChange, catchphraseArr, setCatchphrase }) {
   

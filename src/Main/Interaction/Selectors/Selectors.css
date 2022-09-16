@@ -1,4 +1,6 @@
-.selectors {
-  
+select {
+  border-radius: 5px;
+  background-color: azure;
+  margin: 5px;
 }
 
