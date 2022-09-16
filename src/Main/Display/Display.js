@@ -7,7 +7,7 @@ export default function Display({ head, torso, legs }) {
       <img src={`${process.env.PUBLIC_URL}/pictures/${head}.jpg`}></img>
       <img src={`${process.env.PUBLIC_URL}/pictures/${torso}.jpg`}></img>
       <img src={`${process.env.PUBLIC_URL}/pictures/${legs}.jpg`}></img>
-
+      
     </div>
   );
 }
