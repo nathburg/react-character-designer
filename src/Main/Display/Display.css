@@ -1,0 +1,11 @@
+img {
+  max-height: 200px;  
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+}
