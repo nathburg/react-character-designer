@@ -1,7 +1,7 @@
 import React from 'react';
 import './Selectors.css';
 
-export default function Selectors({ setHead }) {
+export default function Selectors({ setHead, setTorso, setLegs }) {
   return (
     <div className='selectors'>
       <div className='select-container'>
@@ -16,7 +16,7 @@ export default function Selectors({ setHead }) {
       </div>
       <div className='select-container'>
         <label>Torso
-          <select>
+          <select onChange={(e) => setTorso(e.target.value)}>
             <option value='dress-torso'>Dress</option>
             <option value='shirt-torso'>Shirt</option>
             <option value='man-torso'>Man</option>
@@ -26,7 +26,7 @@ export default function Selectors({ setHead }) {
       </div>  
       <div className='select-container'>
         <label>Legs
-          <select>
+          <select onChange={(e) => setLegs(e.target.value)}>
             <option value='socks-legs'>Socks</option>
             <option value='skirt-legs'>Skirt</option>
             <option value='baby-legs'>Baby</option>
